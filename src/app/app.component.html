@@ -25,4 +25,14 @@
   </section>
 
 
+  <section class="gallery">
+    <div class="card" *ngFor="let item of list; let i=index">
+
+      <img src="../assets/{{item.image}}"/>
+      <h4>{{item.title}}</h4>
+      <span>{{item.marca}}</span>
+      <span>{{item.preco}}</span>
+    </div>
+
+  </section>
 </main>

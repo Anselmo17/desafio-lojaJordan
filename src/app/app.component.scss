@@ -74,9 +74,31 @@ h2{
 }
 
 .text-melhores {
-    max-width: 593px;
+    max-width: 450px;
     display: flex;
     flex-direction: column;  
-    margin: 0 auto; 
+    margin: 0 auto 70px auto; 
 }
 
+.gallery{
+    display: flex;
+    width: fit-content;
+    margin: 0 auto 90px auto;
+    // ajusta alinhamento cards
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    padding: 10px;
+    background-color: #F3F7FF;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 5px 10px;
+}
+
+.card h4 {
+  font-size: 1.2em;
+}
