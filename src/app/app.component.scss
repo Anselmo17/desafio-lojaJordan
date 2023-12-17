@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p,
+h2 {
+    text-align: center;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner{
+    position: relative;
+    height: 400px;
+    background-image: url('../assets/image-michael-jordan.png');
+}
+
+
+.banner-text{
+    margin-top: 190px;
+    position: absolute;
+    max-width: 390px;
+    height: 211px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    align-items: flex-start;
+}
+
+.banner-text p {
+    margin-top: -15px;
+    font-size: 1.2em;
+}
+
+.banner-text h2 {
+    margin-top: -35px;
+    font-size: 2em;
+}
+
+.banner-text * {
+    color: white;
+    text-align: left;
+}
+
+.my{
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+
+.frete{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-melhores h2{
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.text-melhores {
+    max-width: 593px;
+    display: flex;
+    flex-direction: column;  
+    margin: 0 auto; 
+}
+
