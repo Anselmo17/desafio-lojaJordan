@@ -7,7 +7,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build",
+    "build": "ng build && SET NODE_OPTIONS=--openssl-legacy-provider",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
