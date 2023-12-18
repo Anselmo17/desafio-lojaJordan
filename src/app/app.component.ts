@@ -18,7 +18,7 @@ export class AppComponent {
       image: 'air-jordan-1-mid-dutch-green-1-400.svg'
     },
     {
-      title: 'Air Jordan 1 Mid Dutch Green',
+      title: 'Air Jordan 1 High Zoom CMFT Tropical Twist',
       marca: 'Tênis Air Jordan',
       preco: '1.049,99',
       image: 'air-jordan-1-high-zoom-cmft-tropical-twist-1-400.svg'
