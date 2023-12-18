@@ -1,6 +1,6 @@
 * {
     margin: 0;
-	padding: 0;
+    padding: 0;
     border: 0;
 }
 
@@ -16,19 +16,19 @@ h2 {
     text-align: center;
 }
 
-h2{
+h2 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.banner{
+.banner {
     position: relative;
+    width: 100%;
     height: 400px;
-    background-image: url('../assets/image-michael-jordan.png');
+    background-image: url("../assets/image-michael-jordan.png");
 }
 
-
-.banner-text{
+.banner-text {
     margin-top: 190px;
     position: absolute;
     max-width: 390px;
@@ -55,19 +55,19 @@ h2{
     text-align: left;
 }
 
-.my{
+.my {
     margin-top: -12px;
     margin-bottom: -12px;
 }
 
-.frete{
+.frete {
     color: black;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.text-melhores h2{
+.text-melhores h2 {
     font-weight: bold;
     margin-top: 40px;
     margin-bottom: 15px;
@@ -76,11 +76,11 @@ h2{
 .text-melhores {
     max-width: 450px;
     display: flex;
-    flex-direction: column;  
-    margin: 0 auto 70px auto; 
+    flex-direction: column;
+    margin: 0 auto 70px auto;
 }
 
-.gallery{
+.gallery {
     display: flex;
     width: fit-content;
     margin: 0 auto 90px auto;
@@ -89,9 +89,9 @@ h2{
     justify-content: center;
 }
 
-.card{
+.card {
     padding: 10px;
-    background-color: #F3F7FF;
+    background-color: #f3f7ff;
     gap: 5px;
     display: flex;
     flex-direction: column;
@@ -100,5 +100,17 @@ h2{
 }
 
 .card h4 {
-  font-size: 1.2em;
+    font-size: 1.2em;
+}
+
+.card-marca {
+    color: #7ca2f4;
+}
+
+/**********************/
+@media only screen and (max-width: 750px) {
+    .banner-text {
+        padding-left: 30px;
+    }
+    
 }
