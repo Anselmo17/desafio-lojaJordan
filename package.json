@@ -2,12 +2,12 @@
   "name": "loja-jordan",
   "version": "0.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "16.x"
   },
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build && SET NODE_OPTIONS=--openssl-legacy-provider",
+    "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
