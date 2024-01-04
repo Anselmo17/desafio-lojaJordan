@@ -1,6 +1,16 @@
-# LojaJordan
+# Site Loja Jordan
+![Site](./src/assets/site.png)
+[Link do site](https://desafio-loja-jordan.vercel.app/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
+## Resumo
+- Foi construído uma loja de vendas de tenis de marca da loja jordan, utilizando a tecnologia
+angular e deixando o site responsivo para qualquer tipo de tela.
+
+## Tecnologia utilizada
+- Angular 12
+
+## Como foi gerado o projeto
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.3.
 
 ## Development server
 
